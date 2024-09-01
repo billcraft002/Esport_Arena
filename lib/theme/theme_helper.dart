@@ -3,70 +3,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class EsportsArenaThemeHelper {
-  static ThemeData get lightTheme {
-    return ThemeData(
-        brightness: Brightness.light,
-        splashColor: Colors.transparent,
-        highlightColor: Colors.transparent,
-        hoverColor: Colors.transparent,
-        visualDensity: VisualDensity.standard,
-        textTheme: TextThemes.lighttextTheme(),
-        datePickerTheme: DatePickerThemeData(
-          cancelButtonStyle: ButtonStyle(
-              textStyle: WidgetStatePropertyAll(
-            GoogleFonts.figtree(
-              color: AppColors.primaryColor,
-              fontSize: 15.sp,
-              fontWeight: FontWeight.w600,
-            ),
-          )),
-          confirmButtonStyle: ButtonStyle(
-              textStyle: WidgetStatePropertyAll(
-            GoogleFonts.figtree(
-              color: AppColors.primaryColor,
-              fontSize: 15.sp,
-              fontWeight: FontWeight.w600,
-            ),
-          )),
-          headerHelpStyle: GoogleFonts.figtree(
-            color: const Color(0XFF252520),
-            fontSize: 13.sp,
-            fontWeight: FontWeight.w500,
-          ),
-          headerHeadlineStyle: GoogleFonts.figtree(
-            color: const Color(0XFF252520),
-            fontSize: 24.sp,
-            fontWeight: FontWeight.w500,
-          ),
-          weekdayStyle: GoogleFonts.figtree(
-            color: const Color(0XFF252520),
-            fontSize: 14.sp,
-            fontWeight: FontWeight.w500,
-          ),
-          dayStyle: GoogleFonts.figtree(
-            color: const Color(0XFF252520),
-            fontSize: 14.sp,
-            fontWeight: FontWeight.w500,
-          ),
-        ),
-        typography: Typography.material2021(),
-        iconTheme: const IconThemeData(color: Color(0XFF555555)),
-        tabBarTheme: const TabBarTheme(
-            overlayColor: WidgetStatePropertyAll(Colors.transparent),
-            splashFactory: NoSplash.splashFactory),
-        elevatedButtonTheme: ElevatedButtonThemeData(
-            style: ElevatedButton.styleFrom(
-                backgroundColor: const Color(0XFFFF1D1D),
-                disabledBackgroundColor:
-                    const Color(0XFFFF1D1D).withOpacity(0.4),
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(16.0.r)),
-                visualDensity:
-                    const VisualDensity(vertical: -1, horizontal: -1),
-                padding: EdgeInsets.zero)),
-        colorScheme: ColorSchemes.lightColorSchemes);
-  }
-
   static ThemeData get darkTheme {
     return ThemeData(
         brightness: Brightness.dark,
@@ -133,10 +69,6 @@ class EsportsArenaThemeHelper {
 }
 
 class ColorSchemes {
-  static const lightColorSchemes = ColorScheme.light(
-    primary: Color(0XFFFF1D1D),
-    onError: Color(0XFFFF5930),
-  );
   static const darkColorSchemes = ColorScheme.dark(
     primary: Color(0XFFFF1D1D),
     onError: Color(0XFFFF5930),
