@@ -1,4 +1,4 @@
-# esports_arena
+# Esports Arena
 
 A new Flutter project.
 
