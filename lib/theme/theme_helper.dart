@@ -194,4 +194,7 @@ class TextThemes {
 class AppColors {
   static const Color primaryColor = Color(0XFFFF1D1D);
   static const Color backgroundColor = Color(0xff1E293B);
+  static const Color authbackground = Color(0xff0F172A);
+  static const Color textfieldborder = Color(0xFF334155);
+  static const Color white = Colors.white;
 }

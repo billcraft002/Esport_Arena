@@ -1,1 +1,5 @@
-{}
+{   
+    "@@locale": "en",
+    "lbl_app_title":"Esport Arena",
+    "lbl_sign_in":"Sign In"
+}

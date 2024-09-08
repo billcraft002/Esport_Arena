@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 
+
 class SecondScreen extends StatefulWidget {
   const SecondScreen({super.key, required this.value});
   final double value;
